@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando tag Fieldset no Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="/convidado" method="POST">
+        <fieldset>
+            <legend>Dados Gerais </legend>
+            <label>Nome</label>
+            <input type="text" name="guessName" placeholder="Digite seu Nome"/><br />
+
+            <label>Email</label>
+            <input type="email" name="guessEmail" placeholder="Digite seu Email"/><br />
+           
+        </fieldset>
+        <fieldset>
+            <legend> Endereço</legend>
+            <label>Rua</label>
+            <input type="text" name="guessAddress"/><br />
+            <label>Número</label>
+            <input type="text" name="guessNunber"/><br />
+            <label>Bairro</label>
+            <input type="text" name="guessNeighborhoad"/><br />
+        </fieldset>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

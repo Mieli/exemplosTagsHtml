@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando tag Input no Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="/convidado" method="POST">  
+            <label>Nome:</label><input type="text" placeholder="Digite seu Nome" required="true" /><br>
+            <label>Email:</label><input type="email" placeholder="Digite seu Email"/><br>
+            <label>Telefone:</label><input type="tel" placeholder="Digite seu Telefone"/><br>
+            <label>Idade:</label><input type="number" placeholder="Digite seu Idade"/><br>
+            
+            <label>Sexo:</label> <br>
+                <input type="radio" name="sexo" /> Masc <br>
+                <input type="radio" name="sexo" /> Fem <br>
+            
+            <label>Benefícios:</label> <br>
+                <input type="checkbox"> Vale Refeição <br>
+                <input type="checkbox"> Vale Transporte <br>
+                <input type="checkbox"> Vale Auxílio Educação <br>
+
+            <input type="password" placeholder="Digite sua Senha"/><br>
+
+            <input type="hidden" value="CODE1234" name="code"/><br>
+            <input type="button" value="Botão Padrão" /> 
+            <input type="reset" value="Limpar Campos" /><br>
+            <input type="submit" value="Enviar dados do Fomulário" /><br>
+       
+       
+    </form>
+</body>
+</html>
